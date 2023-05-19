@@ -53,7 +53,7 @@ $ npm run test:cov
 ```bash
 $ ./buildDocker.sh
 $ ./runDocker.sh # Note that the port mapping, if you change port from 3333
-
+```
 
 ## License
 

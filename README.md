@@ -10,6 +10,11 @@ Quickstart template Python (this project uses Node.js and Nest.js though): https
 	nvm use v18
 	npm i -g @nestjs/cli # optional
 
+## Plugin configuration files for OpenAI
+
+    public/.well-known/ai-plugin.json
+	public/openai.yaml
+
 
 ## Installation
 
@@ -42,6 +47,12 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Build and run in Docker
+
+```bash
+$ ./buildDocker.sh
+$ ./runDocker.sh # Note that the port mapping, if you change port from 3333
 
 
 ## License
